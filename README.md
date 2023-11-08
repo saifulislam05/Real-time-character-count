@@ -1,1 +1,1 @@
-# Sticky Note Web App
+# Real-time Character Counter
