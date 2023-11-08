@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Time Character Count</title>
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- output style -->
+  <link href="/styles/output.css" rel="stylesheet" />
+  <!-- javascript file  -->
+  <script src="/script.js" defer></script>
+</head>
+
+<body class="w-screen h-screen flex items-center justify-center ">
+  <div class="card w-96 glass">
+    <div class="card-body">
+      <h2 class="card-title mx-auto text-2xl">Real-time Character Counter</h2>
+      <textarea id="" class="textarea textarea-success bg-transparent h-24 my-4" maxlength="50" placeholder="Text here..."></textarea>
+      <div class="count-output flex justify-between">
+        <div class="current-count">
+          <span>Typed Characters: <span id="currentChar">0</span></span>
+        </div>
+        <div class="Remaining-count">
+          <span>Remaining : <span id="remainintChar">0</span></span>
+        </div>
+      </div>
+    </div>
+    </main>
+</body>
+
+</html>
