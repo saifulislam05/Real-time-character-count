@@ -19,13 +19,14 @@
   <div class="card w-96 glass">
     <div class="card-body">
       <h2 class="card-title mx-auto text-2xl">Real-time Character Counter</h2>
-      <textarea id="" class="textarea textarea-success bg-transparent h-24 my-4" maxlength="50" placeholder="Text here..."></textarea>
+      <textarea id="textArea" class="textarea textarea-success bg-transparent h-24 my-4 focus:outline-none" maxlength="50" placeholder="Text here..."></textarea>
+      <p id="limitAlert" class=" hidden mx-auto text-warning">You exceeded your limit.</p>
       <div class="count-output flex justify-between">
         <div class="current-count">
           <span>Typed Characters: <span id="currentChar">0</span></span>
         </div>
         <div class="Remaining-count">
-          <span>Remaining : <span id="remainintChar">0</span></span>
+          <span>Remaining : <span id="remainingChar">50</span></span>
         </div>
       </div>
     </div>
